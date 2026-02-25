@@ -1,0 +1,31 @@
+<script lang="ts">
+	import favicon from '$lib/assets/favicon.svg';
+
+	let { children } = $props();
+</script>
+
+<svelte:head>
+	<link rel="icon" href={favicon} />
+</svelte:head>
+
+{@render children()}
+
+<style>
+	:global {
+		@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+		* {
+			font-family: 'SF Pro Display', sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	:global(body) {
+		background-color: #686279;
+		color: white;
+	}
+	:global(input) {
+		font-family: 'SF Pro Display', sans-serif;
+	}
+	* {
+	}
+</style>
