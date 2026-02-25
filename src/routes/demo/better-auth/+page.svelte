@@ -18,7 +18,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background: oklch(25.7% 0.09 281.288);
+
 		font-family: sans-serif;
 		margin: 0;
 	}

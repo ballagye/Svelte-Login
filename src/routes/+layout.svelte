@@ -15,17 +15,15 @@
 		@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 		* {
 			font-family: 'SF Pro Display', sans-serif;
-			margin: 0;
-			padding: 0;
+			margin: 0px;
+			padding: 0px;
 		}
 	}
 	:global(body) {
-		background-color: #686279;
+		background-color: #2c2638;
 		color: white;
 	}
 	:global(input) {
 		font-family: 'SF Pro Display', sans-serif;
-	}
-	* {
 	}
 </style>
